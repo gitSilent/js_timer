@@ -33,7 +33,7 @@ function enableInput(){
 seconds.value = 0;
 minutes.value = 0;
 hours.value = 0;
-let countSeconds = parseInt(hours)*3600+parseInt(minutes)*60+parseInt(seconds);
+
 let interval;
 let divTimer = document.querySelector('.divTimer');
 let btnStop = document.createElement('button');
